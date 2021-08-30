@@ -1,6 +1,6 @@
 string='Proqramalaşdırma nə qədər çox şey bildiyinizlə yox , bildiyinizlə ortaya çıxardığınız işlərlə maraqlanır'
 metnin_sayi=len(string)
-print(metnin_sayi)
+
 simvollarin_sayi=0
 herflerin_sayi=0
 reqemlerin_sayi=0
@@ -20,7 +20,7 @@ for i in string:
 #------------metndeki saitlerin ve samitlerin tapilmasi 1-ci usul-------
 for i in string:
     if i=='a' or i=='ı'  or i=='o'  or i=='u' or i=='e' or i=='ə' or i=='i'or i=='ö' or i=='ü' or i=='A' or i=='I'  or i=='O'  or i=='U' or i=='E' or i=='Ə' or i=='İ'or i=='Ö' or i=='Ü' :
-        print(i)
+  
         saitlerin_sayi+=1
     else:
         samitlerin_sayi+=1
